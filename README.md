@@ -1,6 +1,5 @@
 # odin-landing-page
 
-# Odin Recipes 
 Live Demo: <a href="https://Dee04Jeen.github.io/odin-landing-page/" target="blank_">Landing page</a>
 
 PC View:
