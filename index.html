@@ -3,82 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
     <title>The Odin project - Landing page </title>
 </head>
 <body>
-    <Header>
-        <div class="Header_logo">
-            <h1>StrongFit</h1>
+    <header>
+        <div class="principal">
+            <div class="header_logo">
+                <h1>StrongFit</h1>
+            </div>
+            <nav>
+                <ul>
+                   <li><a href="#">Accueil</a></li>
+                   <li><a href="#">Programmes</a></li>
+                   <li><a href="#">Se connecter</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-               <li><a href="#">Accueil</a></li>
-               <li><a href="#">Programmes</a></li>
-               <li><a href="#">Se connecter</a></li>
-            </ul>
-        </nav>
-       <div class="hero">
-        <h2>Transforme toi à la salle</h2>
-        <p>Un programme structuré pour exploiter tout le potentiel des machines, poids et cardio</p>
-        <button type="button">S'inscrire</button>
-       </div>
-       <div>
-        <img src="images/sport.jpg" alt="Gym">
-       </div>
-    </Header>
-    <section class="programme">
-        <h2>Programme</h2>
-        <div>
-            <img src="images/haltere.avif" alt="Haltere">
-            <h3>Haut du corps</h3>
-            <p>
-                Machines, Haltères, développé couché, élévations latérales et curls ...
-            </p>
-        </div>
-        <div>
-            <img src="images/legpress.avif" alt="Leg press">
-            <h3>Bas du corps</h3>
-            <p>
-                Squats, leg press, fentes, jambes tendues, hip thrust ...
-            </p>
-        </div>
-        <div>
-            <img src="images/tapis.avif" alt="tapis">
-            <h3>Cardio</h3>
-            <p>
-                30 à 45 minutes sur tapis, vélo, à intensité modérée ...
-            </p>
-        </div>
-        <div>
-            <img src="images/squats.avif" alt="Jump">
-            <h3>Full Body</h3>
-            <p>
-                Gainage, jump squats ...
-            </p>
-        </div>
-    </section>
-    <section class="citation">
-        <blockquote>
-            "Ta seule limite, c'est toi-même. Commence aujourd'hui"
-            <br>
-            <cite>
-                - Anonyme
-            </cite>
-        </blockquote>
-    </section>
-    <section class="infos">
-        <div class="container">
-            <div class="contain">
-                <h3>Prêt(e) à transformer ton corps?</h3>
-                <p>
-                    Rejoins dès aujourd'hui notre programme d'entraînement en salle et commence à voir les résultats que tu mérites.
-                </p>
-                <button type="button">
-                    S'inscrire
-                </button>
+        <div class="heroc">
+            <div class="hero">
+                <h2>Transforme toi à la salle</h2>
+                <p>Un programme structuré pour exploiter tout le potentiel des machines, poids et cardio</p>
+                <button type="button">S'inscrire</button>
+            </div>
+            <div class="heroimage">
+                <img src="images/sport.jpg" alt="Gym">
             </div>
         </div>
-    </section>
+    </header>
+    <main>
+        <section class="programme">
+            <h2>Programme</h2>
+            <div>
+                <img src="images/haltere.avif" alt="Haltere">
+                <h3>Haut du corps</h3>
+                <p>
+                    Machines, Haltères, développé couché, élévations latérales et curls ...
+                </p>
+            </div>
+            <div>
+                <img src="images/legpress.avif" alt="Leg press">
+                <h3>Bas du corps</h3>
+                <p>
+                    Squats, leg press, fentes, jambes tendues, hip thrust ...
+                </p>
+            </div>
+            <div>
+                <img src="images/tapis.avif" alt="tapis">
+                <h3>Cardio</h3>
+                <p>
+                    30 à 45 minutes sur tapis, vélo, à intensité modérée ...
+                </p>
+            </div>
+            <div>
+                <img src="images/squats.avif" alt="Jump">
+                <h3>Full Body</h3>
+                <p>
+                    Gainage, jump squats ...
+                </p>
+            </div>
+        </section>
+        <section class="citation">
+            <blockquote>
+                <em>
+                    "Ta seule limite, c'est toi-même. Commence aujourd'hui"
+                </em>
+                <br>
+                <cite>
+                    - Anonyme
+                </cite>
+            </blockquote>
+        </section>
+        <section class="infos">
+            <div class="container">
+                <div class="contain">
+                    <h3>Prêt(e) à transformer ton corps?</h3>
+                    <p>
+                        Rejoins dès aujourd'hui notre programme d'entraînement en salle et commence à voir les résultats que tu mérites.
+                    </p>
+                    <button type="button">
+                        S'inscrire
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
         <p> Copyright &copy; The Odin Project</p>
         <p>

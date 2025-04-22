@@ -1,0 +1,163 @@
+*{
+margin: 0;
+padding: 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+background-color: #1F2937;
+padding: 0;
+}
+.principal{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 100px;
+}
+.header_logo h1{
+font-size: 24px;
+color: #F9FAF8;
+margin: 0;
+}
+nav ul{
+display: flex;
+gap: 40px;
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+nav a{
+text-decoration: none;
+font-size: 24px;
+color: #F9FAF8;
+}
+.heroc{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #1F2937;
+padding: 80px 100px;
+gap: 50px;
+}
+.hero{
+flex: 1;
+color: #F9FAF8;
+}
+.hero h2{
+font-size: 48px;
+margin-bottom: 20px;
+font-weight: 900;
+}
+.hero p{
+font-size: 18px;
+color: E5E5EB;
+margin-bottom: 30px;
+line-height: 1.5;
+}
+.hero button{
+background-color: #3882F6;
+color: white;
+border: none;
+padding: 12px 24px;
+font-size: 18px;
+border-radius: 5px;
+cursor: pointer;
+}
+.heroimage{
+flex: 1;
+}
+.heroimage img{
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+}
+.programme {
+padding: 60px 100px;
+text-align: center;
+background-color: white;
+}
+.programme h2 {
+font-size: 36px;
+margin-bottom: 40px;
+font-weight: 900;
+color: #1F2937;
+}
+.programme div {
+display: inline-block;
+width: 22%;
+margin: 0 1%;
+vertical-align: top;
+text-align: center;
+}
+.programme img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+.programme h3 {
+font-size: 20px;
+margin-bottom: 10px;
+}
+.programme p {
+font-size: 16px;
+color: #4B5563;
+}
+.citation {
+background-color: #E5E7EB;
+padding: 80px 100px;
+text-align: center;
+}
+.citation blockquote {
+font-size: 36px;
+color: #1F2937;
+font-style: light italic;
+}
+.citation cite {
+display: block;
+margin-top: 20px;
+font-size: 18px;
+font-style: normal;
+color: #374151;
+}
+.infos {
+padding: 80px 100px;
+}
+.container {
+background-color: #3882F6;
+color: white;
+border-radius: 10px;
+padding: 50px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.contain h3 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+.contain p {
+font-size: 16px;
+margin-bottom: 20px;
+}
+.contain button {
+background-color: #3882F6;
+border: 2px solid white;
+padding: 10px 20px;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+font-size: 16px;
+}
+footer {
+text-align: center;
+background-color: #1F2937;
+color: #F9FAF8;
+padding: 20px 0;
+font-size: 14px;
+}
+footer a {
+color: #F9FAF8;
+text-decoration: none;
+color: aqua;
+}
+
